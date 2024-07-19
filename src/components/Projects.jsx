@@ -16,14 +16,14 @@ const Projects = () => {
       <div>
         {PROJECTS.map((proj, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div initial={{x:-100 , opacity:0}} whileInView={{x:0 , opacity:1}} transition={{duration:1}}  className="lg:pl-10 w-full lg:w-1/3">
-              <img
+            <motion.div initial={{x:-100 , opacity:0}}  whileInView={{x:0 , opacity:1}} transition={{duration:1}}  className="lg:pl-10 w-full lg:w-1/3">
+              <a href={proj.link} target="_blanks" className="cursor-pointer"><motion.img whileHover={{scale:1.1 }}
                 src={proj.image}
                 alt=""
                 width={200}
                 height={200}
-                className="mb-6 rounded"
-              />
+                className="mb-6 rounded "
+              /></a>
             </motion.div>
             <motion.div initial={{x:150 , opacity:0}} whileInView={{x:0 , opacity:1}} transition={{duration:1}} className="lg:pl-20 w-full max-w-xl lg:w-2/3">
               <h6 className="mb-2 font-semibold">{proj.title}</h6>

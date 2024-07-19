@@ -1,6 +1,7 @@
 import logo from "../assets/AhmadShaar.png";
 
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function Navbar() {
   return (
@@ -9,18 +10,18 @@ function Navbar() {
         <img className="mx-2 w-12 rounded-full" src={logo} alt="logo" />
       </div>
       <div className="social">
-        <a href="https://www.linkedin.com/in/ahmad-shaar-1594b3209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+        <motion.a whileHover={{scale:1.1}} href="https://www.linkedin.com/in/ahmad-shaar-1594b3209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
           <FaLinkedin />
-        </a>
-        <a href="https://github.com/">
+        </motion.a>
+        <motion.a whileHover={{scale:1.1}} href="https://github.com/" target="_blank">
           <FaGithub />
-        </a>
-        <a href="https://www.facebook.com/ahmad.shaar.9674?mibextid=ZbWKwL">
+        </motion.a>
+        <motion.a whileHover={{scale:1.1}} href="https://www.facebook.com/ahmad.shaar.9674?mibextid=ZbWKwL" target="_blank">
           <FaFacebook />
-        </a>
-        <a href="https://www.instagram.com/shaar_ahmad?igsh=MWs2dzl6eGlmaXgzNQ==">
+        </motion.a>
+        <motion.a whileHover={{scale:1.1}} href="https://www.instagram.com/shaar_ahmad?igsh=MWs2dzl6eGlmaXgzNQ==" target="_blank">
           <FaInstagram />
-        </a>
+        </motion.a>
       </div>
     </nav>
   );
