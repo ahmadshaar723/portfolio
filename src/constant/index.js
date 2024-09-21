@@ -1,6 +1,7 @@
 import project1 from '../assets/resturant.png'
 import project2 from '../assets/shop.png'
 import project3 from '../assets/admin.png'
+import project4 from '../assets/Blog.png'
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.  I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -57,6 +58,14 @@ export const PROJECTS = [
       "A admin website can control in e-commerce website like adding product or delete.",
       link:"https://mern1-admin.onrender.com",
     technologies: ["HTML", "CSS", "React", "MongoDB","Nodejs","Express","tailwind"],
+  },
+  {
+    title: "Blog Website",
+    image: project4,
+    description:
+      "MERN Full Stack Project: Build a Blog App with Dashboard using MERN",
+      link:"https://mern-blog-j6yn.onrender.com/",
+    technologies: ["HTML", "CSS", "React", "MongoDB","Nodejs","Express","tailwind","jwt","redux","toolkit"],
   }
   // {
   //   title: "Blogging Platform",
