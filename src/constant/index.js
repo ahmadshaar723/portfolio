@@ -1,5 +1,5 @@
 import project1 from '../assets/resturant.png'
-import project2 from '../assets/shop.png'
+import project2 from '../assets/commerce.png'
 import project3 from '../assets/admin.png'
 import project4 from '../assets/Blog.png'
 
@@ -47,18 +47,11 @@ export const PROJECTS = [
     title: "E-commerce Website",
     image: project2,
     description:
-      "An e-commerce website with features like product listing, shopping cart, and user authentication.",
-      link:"https://mern-front-3n5p.onrender.com/",
-    technologies: ["HTML", "CSS", "React", "MongoDB","Nodejs","Express","tailwind"],
+      "MERN Full Stack Project: Build a Blog App with Dashboard using with features like product listing, shopping cart, and user authentication.",
+      link:"https://mern-ecommerce-x4fm.onrender.com/",
+    technologies: ["HTML", "CSS", "React", "MongoDB","Nodejs","Express","tailwind","jwt","redux","toolkit"],
   },
-  {
-    title: "Admin Website",
-    image: project3,
-    description:
-      "A admin website can control in e-commerce website like adding product or delete.",
-      link:"https://mern1-admin.onrender.com",
-    technologies: ["HTML", "CSS", "React", "MongoDB","Nodejs","Express","tailwind"],
-  },
+ 
   {
     title: "Blog Website",
     image: project4,
